@@ -17,6 +17,8 @@ function App() {
         >
           Learn React
         </a>
+        <h1>Author</h1>
+        <h3>Srikanth Hayagreeva Carya Thirumala</h3>
       </header>
     </div>
   );
