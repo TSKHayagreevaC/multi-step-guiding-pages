@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import BasicTabs from './components/BasicTabs'
+import SimpleContainer from './layouts/SimpleContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -19,7 +21,12 @@ function App() {
         </a>
         <h1>Author</h1>
         <h3>Srikanth Hayagreeva Carya Thirumala</h3>
-      </header>
+      </header> */}
+      <h1>Frontend Developer Road Map</h1>
+      <SimpleContainer>
+        <BasicTabs />
+      </SimpleContainer>
+      <p>TSKHayagreevaC @ 2023</p>
     </div>
   );
 }
